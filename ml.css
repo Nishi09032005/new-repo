@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color:white ;
+}
+.main{
+    position: relative;
+}
+.elem{
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.elem img{
+height: 50px;
+width: 50px;
+object-fit: cover;
+object-position: center;
+position:absolute;
+transform: translate(-50%,-50%);
+opacity: 0;
+}

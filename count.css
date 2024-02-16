@@ -1,0 +1,52 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%vp;
+    height: 100vh;
+    background-image: url('./pexels-ellie-burgin-18878905.jpg');
+    background-size: cover;
+   
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    text-align: center;
+    color: azure;
+    flex-direction: column;
+    
+}
+#heading{
+    align-items: center;
+    text-align: center;
+    margin:20px ;
+  
+}
+.col{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+   justify-content: center;
+    margin: 0px,auto;
+    gap: 2px;
+   align-items: center;
+    text-align: center;
+    color: aliceblue;
+   
+}
+input{
+    display: block;
+    height: 80px;
+    width: 60%;
+    border-radius: 10px;
+    gap: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+   
+}
+

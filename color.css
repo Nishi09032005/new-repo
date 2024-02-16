@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+   
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+button{
+border-style: none;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 15px;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+
+
+

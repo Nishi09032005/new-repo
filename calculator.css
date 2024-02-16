@@ -1,0 +1,44 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+
+}
+.calculator{
+ 
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(0%,-50%);
+  height: 70vh;
+  width: 24%;
+  background-color: rgb(129, 123, 129);
+  border-radius: 10px;
+}
+#display{
+    width: 95%;
+    margin: 10px;
+    height: 10%;
+    border-radius: 8px;
+    font-size: 3rem;
+}
+
+.button{
+  border-radius: 10px;
+  background-color: rgb(242, 227, 210);
+  border-style: none;
+    margin: 4px;
+    font-size: 2rem;
+    height: 60px;
+    width: 30%;
+    
+}
+
+
+   
+    
+
+
+   
+
+

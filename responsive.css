@@ -1,0 +1,38 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+   
+}
+.nav{
+    height: 150px;
+    width: 100%;
+   border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw,0vw,0vw,0vw;
+}
+.nav-part2{
+    display: flex;
+    gap:4vw;
+    justify-content: space-evenly;
+}
+.nav-h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+@media (max-width:600px){
+    .nav{
+        background-color: cornflowerblue;
+        padding:0 5vw ;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+}

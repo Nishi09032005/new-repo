@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 100%;
+   
+    background:linear-gradient(135deg,#153677,#4e085f);
+  background-color: aliceblue;
+    padding: 40px;
+   
+}
+
+.container #todo{
+    height: 70vh;
+    border-radius: 10px;
+  width: 100%;
+  max-width: 660px;
+  background-color: azure;
+  margin: 100px auto 20px;
+  padding: 40px;
+}
+#main-heading{
+    text-align: center;
+    color: aliceblue;
+}
+#todo-input{
+    color: aliceblue;
+    background-color: rgb(212, 229, 243);
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+}
+ #todo #btn{
+    height: 40px;
+    width: 70px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(255, 106, 0);
+}
+
+#todo #list{
+    list-style: none;
+    font-size: larger;
+    margin: 10px;
+    padding: 20px ;
+    user-select: none;
+    cursor: pointer;
+   list-style-type:circle;
+   
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+   
+   
+}
+    

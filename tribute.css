@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+   
+    margin:3vw;
+   
+}
+.main{
+    height: 350px;
+    background-color: white;
+    width: 93%;
+    border-radius: 20px;
+    display: flex;
+  
+   font-size: large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image{
+    height: 100%;
+   width:30% ;
+   background-color: aqua;
+   background-image: url("./tommy-fogelberg-NfiHFew7OpI-unsplash.jpg");
+   background-size: cover;
+   border-radius: 20px;
+   
+ 
+}
+.info{
+    height: 350px;
+    width: 60%;
+    background-color: azure;
+    margin: 4vw;
+    border-radius: 20px;
+}

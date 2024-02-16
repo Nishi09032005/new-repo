@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+ <div class="main">
+   <button class="bag-button" onclick=" cartQuantity = cartQuantity+1;
+   document.querySelector('#cart-summary').innerText = `your bag has ${cartQuantity}items`;
+   ">Add to Bag</button>
+   <button class="wish-list" onclick="alert('Item has been added to wishlist')">click-button</button>
+   <button class="" onclick="alert('Item has been added to Bag')">Add 1+1 Sale Item</button>
+   <h1 id="cart-summary">Your bag has 0 items</h1>
+   </div>
+<p id="name"></p>
+
+
+    
+   <script src="bmi.js"></script> 
+</body>
+</html>
